@@ -7,15 +7,14 @@ using System.Threading.Tasks;
 
 namespace Reflection._16.Module
 {
-    internal class Program
+    class MyClass
     {
-
-        class MyClass
-        {
-            public int MyObjects1 { get; set; }
-            public string MyObjects2 { get; set; }
-            public double MyObjects3 { get; set; }
-        }
+        public int MyObjects1 { get; set; }
+        public string MyObjects2 { get; set; }
+        public double MyObjects3 { get; set; }
+    }
+    public class Program
+    {
 
         static void Main(string[] args)
         {
